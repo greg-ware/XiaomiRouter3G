@@ -1,16 +1,21 @@
 ## Additional Info
-Based on instructions from http://bbs.xiaomi.cn/t-10044297 
 
-To get the SSH tool here: http://www1.miwifi.com/miwifi_open.html, redirects to https://d.miwifi.com/rom/ssh   
-Make sure to change the protocol in http*s*, each time you get a CONN_REFUSED   
-Your URL will looklike https://d.miwifi.com/rom/ssh/download?sn=15757%2F32106462&userId=6155139149
+### SSH tool:
+Based on Chinese instructions from http://bbs.xiaomi.cn/t-10044297 
 
-## Originql reformatted text in french:
+The SSH tool is downloadable from Xiaomi, here: http://www1.miwifi.com/miwifi_open.html, which redirects to https://d.miwifi.com/rom/ssh  
+Make sure to change the protocol in http*s*, each time you get a `CONN_REFUSED`   
+Once authentified to Xiaomi, your URL will look like https://d.miwifi.com/rom/ssh/download?sn=98765%2F67890123&userId=1234567890
+
+** MAKE SURE ** you copy the SSH password! Make a screen capture. Your google-translate screen will look like ![](SSH_Download.png)
+
+## Original reformatted text in French, from https://pastebin.com/YBkr88JX
+
 Tuto pour l'installation du firmware alternatif Padavan pour le routeur Mi Wifi 3g de Xiaomi
 
 La communauté m'ayant conduit à cet achat : https://www.dealabs.com/bons-plans/routeur-sans-fil-xiaomi-mi-wifi-router-3g-avec-4-antennes---gigabit-1167-mbps-dual-band-rom-128-mo-ram-256-mo-/393412
 
-Préliminaire : faire vos updates Windows. Rien de plus rageant que Windows qui reboot tout seul alors que vous êtes en pleine compilation car il y a de nouvelles updates qui viennent d'arriver :p
+Préliminaire : faire vos updates Windows. Rien de plus rageant que Windows qui reboote tout seul alors que vous êtes en pleine compilation car il y a de nouvelles updates qui viennent d'arriver :p
 
 Tout d'abord, il faut télécharger la version "dev" du firmware. La version "stable" ne permet pas d'accéder au ssh et donc de modifier les applications du routeur.
 
