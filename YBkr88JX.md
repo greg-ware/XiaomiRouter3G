@@ -30,17 +30,17 @@ Une fois le téléchargement terminé, reconnectez vous au WiFi de votre routeur
 Se connecter à l'interface web du routeur : 192.168.31.1   
 Mot de passe de connexion : mot de passe utilisé pour la clé wifi lors de la configuration du routeur.
 
-[Capture écran 1](http://i.imgur.com/U0I0Jec.png)
+![Capture écran 1](http://i.imgur.com/U0I0Jec.png)
 
 Vous avez, en rouge : le modèle de votre routeur : R3G   
 et la version actuelle du firmware installée : 2.24.10 pour mon cas.   
 Cliquez sur "Configuration" (en jaune sur la capture)
 
-[Capture écran 2](http://i.imgur.com/bvBLzBJ.png)
+![Capture écran 2](http://i.imgur.com/bvBLzBJ.png)
 
 Puis sur "Status" (en jaune sur la capture)
 
-[Capture écran 3](http://i.imgur.com/eCQt2mf.png)
+![Capture écran 3](http://i.imgur.com/eCQt2mf.png)
 
 Il va falloir lancer la mise à jour du firwmare pour passer votre routeur en version "Dev"   
 Sur la capture, il y a 2 boutons :
@@ -61,7 +61,7 @@ Une fois connecté, allez sur http://d.miwifi.com/rom/ssh
 
 Vous allez alors arriver sur cette page :
 
-[Capture écran 4](http://i.imgur.com/bgE7Ken.png)
+![Capture écran 4](http://i.imgur.com/bgE7Ken.png)
 
 Si vous n'avez pas cet écran, c'est que vous n'êtes pas connecté ou que votre compte n'est pas lié avec l'application du routeur.
 * Les fléches en vert : votre identifiant
@@ -129,7 +129,7 @@ Vous pouvez maintenant fermer votre connexion SSH au routeur avec cette commande
 * Mettez votre carte réseau sur laquelle votre routeur est connecté en bridge(pont) dans les paramètres de la machines virtuelle
 cf capture : 
 
-[Capture écran 5](http://i.imgur.com/a5qqRTL.png)
+![Capture écran 5](http://i.imgur.com/a5qqRTL.png)
 
 Lancez la machine virtuelle. Elle démarre, se mets à télécharger plein de chose. Tout est en Russe. Pas grave, patientez (ça peut être long) jusqu'a l'affichage d'un menu. Si vous avez des message d'erreur, c'est que vous n'êtes pas connecté en pont / que votre routeur n'est pas connecté à Internet. Vérifiez votre connexion / configuration de machine virtuelle
 
